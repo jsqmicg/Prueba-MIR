@@ -1,0 +1,53 @@
+
+@charset "utf-8";
+
+@font-face {
+  font-family: "lobster";
+  src: url("Lobster-Regular.ttf");
+}
+body{
+    background-image: url(geert-pieters-8QrPJ3Kfie4-unsplash.jpg);
+    background-size: 150%;
+    background-position: center;
+    list-style: none;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.me{
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+    border-image: 5px;
+    border-radius: 250px;
+    border:5px solid white
+    
+
+    
+    
+}
+
+.titulo{
+    font: 1.4em "lobster";
+    text-align: center;
+    font-style: italic;
+    padding-top: 340px;
+    position: absolute;
+    color: rgba(124, 58, 20, 0.918);
+    -webkit-text-stroke: 0.01em black ;
+
+}
+
+.ciudad{
+    font: 1.2em "lobster";
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    padding-top: 390px;
+    color: rgba(124, 58, 20, 0.918);
+    -webkit-text-stroke: 0.01em black ;
+
+}
