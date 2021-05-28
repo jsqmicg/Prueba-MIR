@@ -24,6 +24,8 @@ body{
     border-image: 5px;
     border-radius: 250px;
     border:5px solid white
+
+
     
 
     
@@ -42,6 +44,17 @@ body{
 }
 
 .ciudad{
+    font: 1.2em "lobster";
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    padding-top: 390px;
+    color: rgba(124, 58, 20, 0.918);
+    -webkit-text-stroke: 0.01em black ;
+
+}
+
+.profesion{
     font: 1.2em "lobster";
     text-align: center;
     font-style: italic;
